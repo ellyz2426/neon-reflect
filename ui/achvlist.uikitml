@@ -1,0 +1,26 @@
+<container flexDirection="column" alignItems="center" gap="3" padding="8">
+  <text fontSize="16" fontWeight="bold" color="#ffcc00">ACHIEVEMENTS</text>
+  <container flexDirection="column" gap="2" alignItems="flex-start">
+    <text name="lbl-achv0" fontSize="8" color="#cccccc">---</text>
+    <text name="lbl-achv1" fontSize="8" color="#cccccc">---</text>
+    <text name="lbl-achv2" fontSize="8" color="#cccccc">---</text>
+    <text name="lbl-achv3" fontSize="8" color="#cccccc">---</text>
+    <text name="lbl-achv4" fontSize="8" color="#cccccc">---</text>
+    <text name="lbl-achv5" fontSize="8" color="#cccccc">---</text>
+    <text name="lbl-achv6" fontSize="8" color="#cccccc">---</text>
+    <text name="lbl-achv7" fontSize="8" color="#cccccc">---</text>
+    <text name="lbl-achv8" fontSize="8" color="#cccccc">---</text>
+    <text name="lbl-achv9" fontSize="8" color="#cccccc">---</text>
+    <text name="lbl-achv10" fontSize="8" color="#cccccc">---</text>
+    <text name="lbl-achv11" fontSize="8" color="#cccccc">---</text>
+    <text name="lbl-achv12" fontSize="8" color="#cccccc">---</text>
+    <text name="lbl-achv13" fontSize="8" color="#cccccc">---</text>
+    <text name="lbl-achv14" fontSize="8" color="#cccccc">---</text>
+  </container>
+  <container flexDirection="row" gap="8">
+    <text name="btn-prev" fontSize="10" color="#88ccff" cursor="pointer"> < </text>
+    <text name="lbl-page" fontSize="9" color="#888888">Page 1/3</text>
+    <text name="btn-next" fontSize="10" color="#88ccff" cursor="pointer"> > </text>
+  </container>
+  <text name="btn-back" fontSize="11" color="#666666" cursor="pointer">BACK</text>
+</container>

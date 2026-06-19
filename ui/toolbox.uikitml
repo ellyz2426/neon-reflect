@@ -1,0 +1,7 @@
+<container flexDirection="column" gap="3" padding="6" backgroundColor="#00112244">
+  <text fontSize="9" fontWeight="bold" color="#00ffff">Tools</text>
+  <text name="btn-tool0" fontSize="9" color="#88ccff" cursor="pointer">Mirror: 0</text>
+  <text name="btn-tool1" fontSize="9" color="#44ff88" cursor="pointer">Splitter: 0</text>
+  <text name="btn-tool2" fontSize="9" color="#ff44ff" cursor="pointer">Prism: 0</text>
+  <text name="btn-tool3" fontSize="9" color="#ffff44" cursor="pointer">Filter: 0</text>
+</container>

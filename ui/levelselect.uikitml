@@ -1,0 +1,36 @@
+<container flexDirection="column" alignItems="center" gap="4" padding="8">
+  <text fontSize="16" fontWeight="bold" color="#00ffff">SELECT LEVEL</text>
+  <container flexDirection="column" gap="2" alignItems="flex-start">
+    <text name="lbl-lv0" fontSize="9" color="#88ccff" cursor="pointer">1. First Light</text>
+    <text name="lbl-lv1" fontSize="9" color="#88ccff" cursor="pointer">2. Corner Shot</text>
+    <text name="lbl-lv2" fontSize="9" color="#88ccff" cursor="pointer">3. Double Bounce</text>
+    <text name="lbl-lv3" fontSize="9" color="#88ccff" cursor="pointer">4. The L-Turn</text>
+    <text name="lbl-lv4" fontSize="9" color="#88ccff" cursor="pointer">5. Cross Paths</text>
+    <text name="lbl-lv5" fontSize="9" color="#88ccff" cursor="pointer">6. Zigzag</text>
+    <text name="lbl-lv6" fontSize="9" color="#33ff33" cursor="pointer">7. Split Decision</text>
+    <text name="lbl-lv7" fontSize="9" color="#33ff33" cursor="pointer">8. Three Way</text>
+    <text name="lbl-lv8" fontSize="9" color="#33ff33" cursor="pointer">9. Chain Split</text>
+    <text name="lbl-lv9" fontSize="9" color="#33ff33" cursor="pointer">10. Split and Route</text>
+    <text name="lbl-lv10" fontSize="9" color="#33ff33" cursor="pointer">11. Double Split</text>
+    <text name="lbl-lv11" fontSize="9" color="#33ff33" cursor="pointer">12. Split Maze</text>
+    <text name="lbl-lv12" fontSize="9" color="#ff33ff" cursor="pointer">13. Color Shift</text>
+    <text name="lbl-lv13" fontSize="9" color="#ff33ff" cursor="pointer">14. Two Colors</text>
+    <text name="lbl-lv14" fontSize="9" color="#ff33ff" cursor="pointer">15. Prism Path</text>
+    <text name="lbl-lv15" fontSize="9" color="#ff33ff" cursor="pointer">16. Color Route</text>
+    <text name="lbl-lv16" fontSize="9" color="#ff33ff" cursor="pointer">17. Spectrum Split</text>
+    <text name="lbl-lv17" fontSize="9" color="#ff33ff" cursor="pointer">18. Rainbow</text>
+    <text name="lbl-lv18" fontSize="9" color="#ffff00" cursor="pointer">19. Gate Keeper</text>
+    <text name="lbl-lv19" fontSize="9" color="#ffff00" cursor="pointer">20. Color Gate</text>
+    <text name="lbl-lv20" fontSize="9" color="#ffff00" cursor="pointer">21. Filter Maze</text>
+    <text name="lbl-lv21" fontSize="9" color="#ffff00" cursor="pointer">22. Selective Route</text>
+    <text name="lbl-lv22" fontSize="9" color="#ffff00" cursor="pointer">23. Color Puzzle</text>
+    <text name="lbl-lv23" fontSize="9" color="#ffff00" cursor="pointer">24. The Gauntlet</text>
+    <text name="lbl-lv24" fontSize="9" color="#ff3333" cursor="pointer">25. Master Class</text>
+    <text name="lbl-lv25" fontSize="9" color="#ff3333" cursor="pointer">26. The Labyrinth</text>
+    <text name="lbl-lv26" fontSize="9" color="#ff3333" cursor="pointer">27. Chromatic</text>
+    <text name="lbl-lv27" fontSize="9" color="#ff3333" cursor="pointer">28. Cascade</text>
+    <text name="lbl-lv28" fontSize="9" color="#ff3333" cursor="pointer">29. The Crucible</text>
+    <text name="lbl-lv29" fontSize="9" color="#ff3333" cursor="pointer">30. Singularity</text>
+  </container>
+  <text name="btn-back" fontSize="11" color="#666666" cursor="pointer" marginTop="4">BACK</text>
+</container>

@@ -1,0 +1,16 @@
+<container flexDirection="column" alignItems="center" gap="3" padding="10">
+  <text fontSize="16" fontWeight="bold" color="#00ffff">CAREER STATS</text>
+  <container flexDirection="column" gap="2" alignItems="flex-start">
+    <text name="lbl-s0" fontSize="9" color="#ffffff">Games: 0</text>
+    <text name="lbl-s1" fontSize="9" color="#ffffff">Levels Cleared: 0</text>
+    <text name="lbl-s2" fontSize="9" color="#ffffff">Total Score: 0</text>
+    <text name="lbl-s3" fontSize="9" color="#ffffff">Best Score: 0</text>
+    <text name="lbl-s4" fontSize="9" color="#ffffff">Total Moves: 0</text>
+    <text name="lbl-s5" fontSize="9" color="#ffffff">Perfect Levels: 0</text>
+    <text name="lbl-s6" fontSize="9" color="#ffffff">Best Streak: 0</text>
+    <text name="lbl-s7" fontSize="9" color="#ffffff">Mirrors Placed: 0</text>
+    <text name="lbl-s8" fontSize="9" color="#ffffff">Daily Done: 0</text>
+    <text name="lbl-s9" fontSize="9" color="#ffffff">Level: 1</text>
+  </container>
+  <text name="btn-back" fontSize="11" color="#666666" cursor="pointer" marginTop="4">BACK</text>
+</container>

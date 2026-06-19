@@ -1,0 +1,14 @@
+<container flexDirection="column" alignItems="center" gap="6" padding="12">
+  <text fontSize="18" fontWeight="bold" color="#00ffff">SELECT MODE</text>
+  <container flexDirection="column" gap="4" alignItems="center">
+    <text name="btn-campaign" fontSize="12" color="#00ffff" cursor="pointer">Campaign</text>
+    <text name="btn-puzzle" fontSize="12" color="#33ff33" cursor="pointer">Puzzle</text>
+    <text name="btn-timeattack" fontSize="12" color="#ff8800" cursor="pointer">Time Attack</text>
+    <text name="btn-endless" fontSize="12" color="#ff33ff" cursor="pointer">Endless</text>
+    <text name="btn-daily" fontSize="12" color="#ffff00" cursor="pointer">Daily Challenge</text>
+    <text name="btn-sandbox" fontSize="12" color="#88ccff" cursor="pointer">Sandbox</text>
+    <text name="btn-speedrun" fontSize="12" color="#ff3333" cursor="pointer">Speed Run</text>
+    <text name="btn-practice" fontSize="12" color="#aaaaaa" cursor="pointer">Practice</text>
+  </container>
+  <text name="btn-back" fontSize="11" color="#666666" cursor="pointer" marginTop="6">BACK</text>
+</container>

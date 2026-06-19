@@ -1,0 +1,12 @@
+<container flexDirection="column" alignItems="center" gap="3" padding="6" backgroundColor="#00112244">
+  <text name="lbl-level" fontSize="10" fontWeight="bold" color="#00ffff">Level</text>
+  <container flexDirection="row" gap="8">
+    <text name="lbl-moves" fontSize="9" color="#ffffff">Moves: 0</text>
+    <text name="lbl-par" fontSize="9" color="#88ccff">Par: 0</text>
+  </container>
+  <container flexDirection="row" gap="8">
+    <text name="lbl-targets" fontSize="9" color="#33ff33">Targets: 0/0</text>
+    <text name="lbl-time" fontSize="9" color="#ffcc00">0s</text>
+  </container>
+  <text name="lbl-mode" fontSize="8" color="#666688">CAMPAIGN</text>
+</container>

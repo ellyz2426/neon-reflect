@@ -1,0 +1,14 @@
+<container flexDirection="column" alignItems="center" gap="4" padding="10">
+  <text fontSize="16" fontWeight="bold" color="#ff8800">BEAM SKINS</text>
+  <container flexDirection="column" gap="2" alignItems="center">
+    <text name="btn-skin0" name="lbl-skin0" fontSize="9" color="#00ffff" cursor="pointer">Classic Neon</text>
+    <text name="btn-skin1" name="lbl-skin1" fontSize="9" color="#ff6600" cursor="pointer">Solar Flare</text>
+    <text name="btn-skin2" name="lbl-skin2" fontSize="9" color="#88ddff" cursor="pointer">Frost Core</text>
+    <text name="btn-skin3" name="lbl-skin3" fontSize="9" color="#ff44aa" cursor="pointer">Plasma Pink</text>
+    <text name="btn-skin4" name="lbl-skin4" fontSize="9" color="#44ff44" cursor="pointer">Toxic Pulse</text>
+    <text name="btn-skin5" name="lbl-skin5" fontSize="9" color="#8800ff" cursor="pointer">Void Purple</text>
+    <text name="btn-skin6" name="lbl-skin6" fontSize="9" color="#cccccc" cursor="pointer">Chrome</text>
+    <text name="btn-skin7" name="lbl-skin7" fontSize="9" color="#ffffff" cursor="pointer">Rainbow</text>
+  </container>
+  <text name="btn-back" fontSize="11" color="#666666" cursor="pointer" marginTop="4">BACK</text>
+</container>

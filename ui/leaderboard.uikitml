@@ -1,0 +1,16 @@
+<container flexDirection="column" alignItems="center" gap="4" padding="10">
+  <text fontSize="16" fontWeight="bold" color="#ffcc00">BEST SCORES</text>
+  <container flexDirection="column" gap="2" alignItems="flex-start">
+    <text name="lbl-row0" fontSize="9" color="#ffffff">1. ---</text>
+    <text name="lbl-row1" fontSize="9" color="#ffffff">2. ---</text>
+    <text name="lbl-row2" fontSize="9" color="#ffffff">3. ---</text>
+    <text name="lbl-row3" fontSize="9" color="#ffffff">4. ---</text>
+    <text name="lbl-row4" fontSize="9" color="#ffffff">5. ---</text>
+    <text name="lbl-row5" fontSize="9" color="#ffffff">6. ---</text>
+    <text name="lbl-row6" fontSize="9" color="#ffffff">7. ---</text>
+    <text name="lbl-row7" fontSize="9" color="#ffffff">8. ---</text>
+    <text name="lbl-row8" fontSize="9" color="#ffffff">9. ---</text>
+    <text name="lbl-row9" fontSize="9" color="#ffffff">10. ---</text>
+  </container>
+  <text name="btn-back" fontSize="11" color="#666666" cursor="pointer" marginTop="4">BACK</text>
+</container>

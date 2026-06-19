@@ -1,0 +1,14 @@
+<container flexDirection="column" alignItems="center" gap="5" padding="12">
+  <text fontSize="18" fontWeight="bold" color="#33ff33">LEVEL COMPLETE!</text>
+  <text name="lbl-name" fontSize="12" color="#00ffff">Level</text>
+  <text name="lbl-stars" fontSize="16" color="#ffcc00">* * *</text>
+  <text name="lbl-score" fontSize="11" color="#ffffff">Score: 0</text>
+  <text name="lbl-moves" fontSize="10" color="#88ccff">Moves: 0 / Par: 0</text>
+  <text name="lbl-time" fontSize="10" color="#88ccff">Time: 0s</text>
+  <text name="lbl-targets" fontSize="10" color="#33ff33">Targets: 0/0</text>
+  <container flexDirection="row" gap="12" marginTop="6">
+    <text name="btn-next" fontSize="12" color="#00ffff" cursor="pointer">NEXT</text>
+    <text name="btn-retry" fontSize="12" color="#ffcc00" cursor="pointer">RETRY</text>
+    <text name="btn-menu" fontSize="12" color="#888888" cursor="pointer">MENU</text>
+  </container>
+</container>

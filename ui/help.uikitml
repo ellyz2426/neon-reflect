@@ -1,0 +1,24 @@
+<container flexDirection="column" alignItems="center" gap="4" padding="10">
+  <text fontSize="16" fontWeight="bold" color="#00ffff">HOW TO PLAY</text>
+  <container flexDirection="column" gap="3" alignItems="flex-start">
+    <text fontSize="10" fontWeight="bold" color="#ffcc00">Goal</text>
+    <text fontSize="8" color="#cccccc">Direct laser beams to light all targets</text>
+    <text fontSize="10" fontWeight="bold" color="#ffcc00">Elements</text>
+    <text fontSize="8" color="#88ccff">Mirror - Reflects beam 90 degrees</text>
+    <text fontSize="8" color="#44ff88">Splitter - Splits beam + reflects</text>
+    <text fontSize="8" color="#ff44ff">Prism - Changes beam color</text>
+    <text fontSize="8" color="#ffff44">Filter - Passes matching color only</text>
+    <text fontSize="10" fontWeight="bold" color="#ffcc00">Browser Controls</text>
+    <text fontSize="8" color="#cccccc">Click - Place/rotate piece</text>
+    <text fontSize="8" color="#cccccc">Right-click - Remove piece</text>
+    <text fontSize="8" color="#cccccc">Scroll/Q/E - Cycle tools</text>
+    <text fontSize="8" color="#cccccc">1-4 - Select tool directly</text>
+    <text fontSize="8" color="#cccccc">ESC/P - Pause</text>
+    <text fontSize="10" fontWeight="bold" color="#ffcc00">VR Controls</text>
+    <text fontSize="8" color="#cccccc">Trigger - Place/rotate</text>
+    <text fontSize="8" color="#cccccc">Grip - Remove piece</text>
+    <text fontSize="8" color="#cccccc">Thumbstick - Cycle tools</text>
+    <text fontSize="8" color="#cccccc">B - Pause</text>
+  </container>
+  <text name="btn-back" fontSize="11" color="#666666" cursor="pointer" marginTop="4">BACK</text>
+</container>
