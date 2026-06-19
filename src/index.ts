@@ -1,6 +1,6 @@
 import {
   World, createSystem, PanelUI, PanelDocument, UIKitDocument, UIKit, eq,
-  Follower, ScreenSpace, InputComponent,
+  Follower, InputComponent,
   Mesh, Group, BoxGeometry, SphereGeometry, CylinderGeometry, PlaneGeometry,
   ConeGeometry, TorusGeometry, OctahedronGeometry, RingGeometry, CircleGeometry,
   MeshStandardMaterial, MeshBasicMaterial, LineBasicMaterial,
@@ -1657,13 +1657,15 @@ async function main() {
     world.scene.add(mesh);
     const e = world.createTransformEntity(mesh);
     e.addComponent(PanelUI, { config: `./ui/${name}.json` });
-    e.addComponent(ScreenSpace, {});
   }
 
   // Head-following panels
   const followerConfigs = ['hud','toolbox','toast','countdown'];
   for (const name of followerConfigs) {
-    const e = world.createEntity();
+    const mesh = new Mesh(new PlaneGeometry(0.001, 0.001), new MeshBasicMaterial({ visible: false }));
+    mesh.position.set(0, 100, 0);
+    world.scene.add(mesh);
+    const e = world.createTransformEntity(mesh);
     e.addComponent(PanelUI, { config: `./ui/${name}.json` });
     e.addComponent(Follower, { target: world.player.head });
     const offset = e.getVectorView(Follower, 'offsetPosition');

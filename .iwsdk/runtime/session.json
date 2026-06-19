@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "sessionId": "3b111c40-fc39-4083-a707-8ea7d3eb988d",
+  "workspaceRoot": "/home/hatch/workspace/neon-reflect",
+  "pid": 3288,
+  "port": 5173,
+  "localUrl": "http://localhost:5173/",
+  "networkUrls": [
+    "http://198.19.0.2:5173/"
+  ],
+  "aiMode": "agent",
+  "aiTools": [
+    "claude"
+  ],
+  "browser": {
+    "status": "connected",
+    "connected": true,
+    "connectedClientCount": 1,
+    "lastTransitionAt": "2026-06-19T19:24:11.125Z"
+  },
+  "registeredAt": "2026-06-19T19:23:55.580Z",
+  "updatedAt": "2026-06-19T19:24:11.131Z"
+}
