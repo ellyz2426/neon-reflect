@@ -1,0 +1,14 @@
+{
+  "build_number": 58,
+  "game": "neon-reflect",
+  "genre": "Laser Optics Puzzle",
+  "date": "2026-06-19",
+  "cycle": "pm",
+  "rounds": 1,
+  "total_minutes": 30,
+  "lines_of_code": 1686,
+  "sessions": [
+    "32313c23-efd5-4de9-ac15-1df56924aa6c",
+    "3a0a7538-37e7-4da2-a5b6-40df71f3959e"
+  ]
+}
